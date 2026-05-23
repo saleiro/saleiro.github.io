@@ -80,7 +80,7 @@ a:hover, a:focus { border-bottom-color: var(--accent); }
   width: 140px;
   height: 140px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 4px;
   flex-shrink: 0;
   background: var(--rule);
 }
