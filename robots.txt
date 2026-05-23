@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://saleiro.github.io/sitemap.xml
+Sitemap: https://pedrosaleiro.com/sitemap.xml
