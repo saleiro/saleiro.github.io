@@ -1,19 +1,10 @@
 :root {
-  --bg: #fdfdfb;
+  color-scheme: light;
+  --bg: #ffffff;
   --fg: #1a1a1a;
   --muted: #6a6a6a;
   --accent: #8b1a1a;
   --rule: #e7e2d8;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #14130f;
-    --fg: #ece7dc;
-    --muted: #97928a;
-    --accent: #e89a9a;
-    --rule: #2a2823;
-  }
 }
 
 * { box-sizing: border-box; }
