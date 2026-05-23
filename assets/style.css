@@ -91,6 +91,8 @@ a:hover, a:focus { border-bottom-color: var(--accent); }
 article { margin: 1rem 0 1.2rem; }
 
 ul { padding-left: 1.25rem; }
+ul.plain { list-style: none; padding-left: 0; }
+ul.plain li { margin: 0.5rem 0; }
 ul.pubs li, ul.links li { margin: 0.25rem 0; }
 ul.links { list-style: none; padding-left: 0; columns: 2; column-gap: 1.5rem; }
 ul.links li { break-inside: avoid; }
