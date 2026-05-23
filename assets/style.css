@@ -63,7 +63,7 @@ a:hover, a:focus { border-bottom-color: var(--accent); }
 
 .hero {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 2.25rem;
   margin-bottom: 2.5rem;
 }
@@ -87,7 +87,15 @@ a:hover, a:focus { border-bottom-color: var(--accent); }
   width: 280px;
 }
 .hero-text { flex: 1; min-width: 0; }
-.tagline { font-size: 1.25rem; line-height: 1.45; margin: 0.4rem 0 1rem; }
+.position {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--fg);
+  margin: 0.25rem 0 1rem;
+  line-height: 1.35;
+}
+.position a { color: var(--accent); }
+.tagline { font-size: 1.05rem; line-height: 1.55; color: var(--muted); margin: 0 0 1.1rem; }
 .hero-links { color: var(--muted); font-size: 1rem; margin: 0; }
 
 article { margin: 1rem 0 1.2rem; }
